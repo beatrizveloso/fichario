@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.alinhar-abas{
+    display: flex;
+}
+
+.aba-fichario1,
+.aba-fichario2,
+.aba-fichario3{
+    width: 180px;
+    height: 45px;
+    background-color: rgb(188, 188, 230);
+    border-radius: 18px 18px 0px 0px;
+}
+
+.quadrado{
+    width: 930px;
+    height: 480px;
+    background-color: rgb(188, 188, 230);
+    border: 1px solid black;
+}
